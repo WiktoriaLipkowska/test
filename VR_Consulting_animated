@@ -1,0 +1,110 @@
+
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
+
+<body>
+  <style media="screen">
+  html { font-size: 1px; }
+body {
+margin: 0;
+font-family: 'Work Sans', sans-serif;
+font-size: 30rem;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.6)), url(http://alluretouch.com/wp-content/uploads/2015/09/minimalist-art.jpg);
+background-position: 50% 15%;
+background-size: cover;
+}
+
+main {
+position: relative;
+display: flex;
+}
+
+h1{ margin: 27rem; }
+.marker, .C, .O, .N1, .S, .U, .L, .T, .T2, .N {
+animation-timing-function: cubic-bezier(0.15,-0.01, 0.58, 1);
+animation-duration: 5s;
+animation-iteration-count: infinite;
+will-change: transform;
+}
+
+.marker {
+position: absolute; top: 4rem; left: 20rem;
+height: 3rem; width: 40rem;
+background-color: black;
+animation-name: marker;
+}
+
+.C {margin-left: -6rem;   animation-name: C; }
+.O { margin-left: -5rem; animation-name: O; }
+.N1 { margin-left: -5rem; animation-name: N1; }
+.S { margin-left: -9rem; animation-name:S; }
+.U { margin-left: -23rem; animation-name:U; }
+.L { margin-left: -27rem; animation-name:L; }
+.T { margin-left: -26rem; animation-name:T; }
+.T2 { margin-left: -18rem; animation-name:T2; }
+.N { margin-left: -24rem; animation-name:N; }
+
+@keyframes C {
+0%, 20% { transform: translateX(0); }
+50%, 70% { transform: translateX(-20rem); }
+}
+@keyframes O {
+0%, 20% { transform: translateX(0); }
+50%, 70% { transform: translateX(-41rem); }
+}
+@keyframes N1 {
+0%, 20% { transform: translateX(0); }
+50%, 70% { transform: translateX(-65rem); }
+}
+@keyframes S {
+0%, 20% { transform: translateX(0); }
+50%, 70% { transform: translateX(-83rem); }
+}
+@keyframes U {
+0%, 20% { transform: translateX(0); }
+50%, 70% { transform: translateX(-89rem); }
+}
+@keyframes L {
+0%, 20% { transform: translateX(0); }
+50%, 70% { transform: translateX(-71rem); }
+}
+@keyframes T {
+0%, 20% { transform: translateX(0); }
+50%, 70% { transform: translateX(-55rem); }
+}
+@keyframes T2 {
+0%, 20% { transform: translateX(0); }
+50%, 70% { transform: translateX(-40rem); }
+}
+@keyframes N {
+0%, 20% { transform: translateX(0); }
+50%, 70% { transform: translateX(-17rem); }
+}
+@keyframes marker {
+0%, 20% { transform: translateX(0); }
+50%, 70% { transform: translateX(500rem); }
+}
+  </style>
+  <main>
+    <div class="marker"></div>
+    <h1>VR</h1>
+    <h1 class="C">C</h1>
+    <h1 class="O">O</h1>
+    <h1 class="N1">N</h1>
+    <h1 class="S">S</h1>
+    <h1 class="U">U</h1>
+    <h1 class="L">L</h1>
+    <h1 class="T">T</h1>
+    <h1 class="T2">I</h1>
+    <h1 class="N" style="margin-right: 1px;">N</h1>
+    <h1 style="
+    margin-left: 0px;
+    padding-left: -5;
+    width: 36.563;
+    margin-right: 0px;">G</h1>
+  </main>
+</body>
